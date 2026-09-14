@@ -1,0 +1,20 @@
+dialog.share-coupon{position:fixed;inset:0;width:100%;max-width:none;height:100%;height:100dvh;max-height:none;margin:0;padding:0;border:0;border-radius:0;background:var(--page,#f5f4f1);color:var(--ink,#292621);overscroll-behavior:contain}
+.share-coupon::backdrop{background:var(--page,#f5f4f1)}
+.share-close{position:absolute;top:calc(16px + env(safe-area-inset-top));right:16px;width:28px;height:28px;padding:0;color:#8f8b80;z-index:2}
+.share-close svg{width:24px;height:24px}
+.share-layout{max-width:430px;min-height:100%;margin:auto;display:flex;flex-direction:column;padding:calc(64px + env(safe-area-inset-top)) 16px calc(16px + env(safe-area-inset-bottom))}
+.share-spacer{flex:1;min-height:24px}
+.share-ticket canvas{display:block;width:100%;height:auto}
+.share-error{font-size:14px;color:var(--muted,#7b756b);text-align:center;margin:12px 0}
+.share-amount{display:flex;gap:12px;align-items:center;position:relative;margin:20px 16px 16px;font-size:16px;line-height:24px;cursor:pointer}
+.share-amount input{position:absolute;right:0;width:36px;height:24px;margin:0;opacity:0;cursor:pointer}
+.share-switch{margin-left:auto;flex:none;width:36px;height:20px;border-radius:20px;background:#aaa69e;padding:3px;transition:background .15s}
+.share-switch:after{content:'';display:block;width:14px;height:14px;background:var(--surface,#fff);border-radius:50%;transition:transform .15s}
+.share-amount input:checked+.share-switch{background:#009e69}
+.share-amount input:checked+.share-switch:after{transform:translateX(16px)}
+.share-amount input:focus-visible+.share-switch{outline:2px solid #007e54;outline-offset:3px}
+.share-actions{display:flex;justify-content:center;gap:32px;margin-top:4px}
+.share-actions button{display:flex;align-items:center;flex-direction:column;gap:8px;min-width:84px;padding:0;font-size:14px;line-height:18px;text-align:center}
+.share-actions button>span{width:56px;height:56px;display:grid;place-items:center;background:var(--surface,#fff);border-radius:50%;color:var(--muted,#7b756b)}
+.share-actions svg{width:24px;height:24px}.share-actions button:disabled{opacity:.45;cursor:wait}
+@media(min-width:768px){.share-layout{padding-bottom:32px}.share-close{right:24px;top:24px}}

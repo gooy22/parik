@@ -1,0 +1,78 @@
+{
+  "match": {
+    "id": 128225,
+    "slug": "mouz-dota2-vs-klim-sani4-09-09-2026",
+    "team1_id": 15032,
+    "team2_id": 15145,
+    "team1_score": 1,
+    "team2_score": 2,
+    "winner_team_id": 15145,
+    "status": "finished",
+    "start_date": "2026-09-09T21:00:00.000+00:00",
+    "discipline_id": 4,
+    "bo_type": 3,
+    "team1": {
+      "id": 15032,
+      "name": "MOUZ",
+      "team_clans": []
+    },
+    "team2": {
+      "id": 15145,
+      "name": "Klim Sani4",
+      "team_clans": []
+    }
+  },
+  "games": [
+    {
+      "match_id": 8991067333,
+      "duration": 4690,
+      "start_time": 1788996153,
+      "radiant_team_id": 9338413,
+      "radiant_name": "MOUZ",
+      "dire_team_id": 10232231,
+      "dire_name": "Klim Sani4",
+      "leagueid": 19944,
+      "league_name": "EPL Masters 2026 ",
+      "series_id": 1140089,
+      "series_type": 1,
+      "radiant_score": 15,
+      "dire_score": 19,
+      "radiant_win": false,
+      "version": 22
+    },
+    {
+      "match_id": 8991020791,
+      "duration": 2754,
+      "start_time": 1788991530,
+      "radiant_team_id": 9338413,
+      "radiant_name": "MOUZ",
+      "dire_team_id": 10232231,
+      "dire_name": "Klim Sani4",
+      "leagueid": 19944,
+      "league_name": "EPL Masters 2026 ",
+      "series_id": 1140089,
+      "series_type": 1,
+      "radiant_score": 45,
+      "dire_score": 14,
+      "radiant_win": true,
+      "version": 22
+    },
+    {
+      "match_id": 8990977035,
+      "duration": 1946,
+      "start_time": 1788986995,
+      "radiant_team_id": 9338413,
+      "radiant_name": "MOUZ",
+      "dire_team_id": 10232231,
+      "dire_name": "Klim Sani4",
+      "leagueid": 19944,
+      "league_name": "EPL Masters 2026 ",
+      "series_id": 1140089,
+      "series_type": 1,
+      "radiant_score": 15,
+      "dire_score": 42,
+      "radiant_win": false,
+      "version": 22
+    }
+  ]
+}

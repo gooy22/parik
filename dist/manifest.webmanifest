@@ -1,0 +1,9 @@
+{
+  "name": "Arena Line Live",
+  "short_name": "ArenaLine",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f1f1ee",
+  "theme_color": "#171717",
+  "icons": []
+}

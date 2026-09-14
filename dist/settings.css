@@ -1,0 +1,21 @@
+.profile-shortcuts{display:flex;gap:8px;overflow:auto;scrollbar-width:none;margin:0 0 12px}
+.profile-shortcuts button{display:flex;gap:7px;align-items:center;flex:none;padding:7px 12px;border-radius:24px;background:var(--surface,#fff);font-size:14px;font-weight:500}
+.profile-shortcuts span{font-size:18px}.logout-row .row>svg:first-child{color:#e63249}
+.settings-page{padding:8px}.settings-page .menu{background:var(--surface-soft,#eeece7)}
+.settings-page .row small{font-size:14px;color:var(--muted,#7b756b)}.settings-page .row>.chevron{width:16px}
+.settings-page label{display:block;font-size:14px;margin-bottom:20px}.settings-page select{display:block;width:100%;border:1px solid var(--line,#e6e3de);padding:12px;border-radius:8px;background:var(--surface,#fff);margin-top:8px}
+#feedback-form textarea{width:100%;font:inherit;border:1px solid var(--line,#e6e3de);border-radius:8px;padding:12px;margin-bottom:16px;resize:vertical}
+#settlement-notifications{width:20px;height:20px;accent-color:#009e69}
+dialog.language-sheet{position:fixed;inset:auto 0 0;margin:0 auto;width:100%;max-width:480px;height:calc(100dvh - 68px);max-height:none;border-radius:20px 20px 0 0;padding:0;background:var(--surface,#fff)}
+.language-sheet #dialog-content{height:100%;display:flex;flex-direction:column}.language-sheet .dialog-head{height:56px;border-bottom:1px solid var(--line,#e6e3de);padding:12px 16px;margin:0;flex:none}
+.language-sheet .dialog-head h2{text-align:center;font-size:16px;line-height:24px;padding-left:32px}
+.language-options{background:var(--surface-soft,#f2f1ee);border-radius:8px;margin:16px;padding:0 16px}
+.language-options label{display:flex;align-items:center;justify-content:space-between;height:56px;font-size:14px;margin:0;cursor:pointer}
+.language-options input{width:18px;height:18px;accent-color:#009e69;margin:0}
+.language-sheet .language-save{margin:auto 16px calc(16px + env(safe-area-inset-bottom));width:calc(100% - 32px);height:48px;flex:none;font-size:14px}
+
+.prematch-filters{display:flex;align-items:center;gap:8px;padding:8px 12px;justify-content:space-between}.prematch-filters[hidden]{display:none}.prematch-view-tabs{display:flex;gap:4px}.prematch-view-tabs button{font:inherit;font-size:13px;padding:8px 10px;border-radius:20px;color:var(--muted,#7b756b)}.prematch-view-tabs button.active{background:var(--surface-active,#e5e3de);color:var(--ink,#262521)}.prematch-filters select{font:inherit;font-size:13px;max-width:115px;border:0;border-radius:18px;background:var(--surface-active,#e5e3de);padding:8px;color:var(--ink,#262521)}.tournament-directory{border-radius:10px;overflow:hidden;background:var(--surface,white)}.tournament-directory>button{display:flex;align-items:center;gap:12px;width:100%;padding:16px;text-align:left;border-bottom:1px solid #eeece7}.tournament-directory>button>span:nth-child(2){flex:1}.tournament-directory small{color:var(--muted,#7b756b)}.bet-sport img{mix-blend-mode:multiply}.bet-coefficient.result-won{color:#009e69}.bet-coefficient.result-lost{color:#e6253a}.bet-coefficient.result-void{color:var(--subtle,#969186)}.bet-coefficient svg{width:16px;height:16px;vertical-align:middle;margin-left:4px}
+
+.team-mark{display:inline-flex;align-items:center;justify-content:center;width:20px;height:20px;flex:none}.team-mark img{width:20px;height:20px;object-fit:contain;mix-blend-mode:multiply}.event-team-emblem img{width:40px;height:40px;object-fit:contain;mix-blend-mode:multiply}
+
+.menu-toggle{width:36px;height:22px;border-radius:20px;background:#aaa;position:relative;flex:none}.menu-toggle::after{content:'';position:absolute;width:18px;height:18px;top:2px;left:2px;border-radius:50%;background:white;transition:transform .15s}.menu-edit-bets[aria-checked=true] .menu-toggle{background:#009e69}.menu-edit-bets[aria-checked=true] .menu-toggle::after{transform:translateX(14px)}.bet-record-actions>.delete-bet{color:#e6253a}

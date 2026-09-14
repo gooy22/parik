@@ -1,0 +1,233 @@
+{
+  "match": {
+    "id": 129029,
+    "slug": "hotu-vs-nemiga-09-09-2026",
+    "team1_id": 2720,
+    "team2_id": 655,
+    "team1_score": 1,
+    "team2_score": 2,
+    "winner_team_id": 655,
+    "status": "finished",
+    "start_date": "2026-09-09T12:25:00.000+00:00",
+    "discipline_id": 1,
+    "bo_type": 3,
+    "team1": {
+      "id": 2720,
+      "name": "HOTU",
+      "team_clans": [
+        {
+          "clan_name": "HOTU",
+          "team_id": 2720,
+          "created_at": null,
+          "updated_at": null,
+          "id": 1569
+        },
+        {
+          "clan_name": "HOTU Esports",
+          "team_id": 2720,
+          "created_at": "2025-05-10T16:28:28.908+00:00",
+          "updated_at": "2025-05-10T16:28:28.908+00:00",
+          "id": 9674
+        },
+        {
+          "clan_name": "HOTU Shiny",
+          "team_id": 2720,
+          "created_at": "2022-12-17T09:45:55.585+00:00",
+          "updated_at": "2022-12-17T11:23:07.302+00:00",
+          "id": 5157
+        },
+        {
+          "clan_name": "HOTU eSports",
+          "team_id": 2720,
+          "created_at": "2022-09-24T05:37:02.743+00:00",
+          "updated_at": "2022-09-24T08:06:58.335+00:00",
+          "id": 3338
+        },
+        {
+          "clan_name": "HOTU x ELGA",
+          "team_id": 2720,
+          "created_at": "2024-05-29T22:27:12.177+00:00",
+          "updated_at": "2024-05-29T22:27:12.177+00:00",
+          "id": 8177
+        },
+        {
+          "clan_name": "hotu",
+          "team_id": 2720,
+          "created_at": "2026-02-13T07:53:24.108+00:00",
+          "updated_at": "2026-02-13T07:53:24.108+00:00",
+          "id": 11139
+        },
+        {
+          "clan_name": "team_dukefissura",
+          "team_id": 2720,
+          "created_at": "2026-01-27T15:01:42.893+00:00",
+          "updated_at": "2026-01-27T15:01:42.893+00:00",
+          "id": 10750
+        }
+      ]
+    },
+    "team2": {
+      "id": 655,
+      "name": "Nemiga",
+      "team_clans": [
+        {
+          "clan_name": "NEMIGA",
+          "team_id": 655,
+          "created_at": "2022-11-12T15:56:06.798+00:00",
+          "updated_at": "2022-11-14T08:54:41.847+00:00",
+          "id": 4657
+        },
+        {
+          "clan_name": "Nemiga",
+          "team_id": 655,
+          "created_at": null,
+          "updated_at": null,
+          "id": 85
+        },
+        {
+          "clan_name": "Nemiga ",
+          "team_id": 655,
+          "created_at": "2024-08-27T18:27:54.414+00:00",
+          "updated_at": "2024-08-27T18:27:54.414+00:00",
+          "id": 8625
+        },
+        {
+          "clan_name": "Nemiga Gaming",
+          "team_id": 655,
+          "created_at": null,
+          "updated_at": null,
+          "id": 134
+        },
+        {
+          "clan_name": "Nemiga_Gaming",
+          "team_id": 655,
+          "created_at": "2023-04-28T19:54:16.171+00:00",
+          "updated_at": "2023-04-28T19:54:16.171+00:00",
+          "id": 5818
+        },
+        {
+          "clan_name": "Nemigagg",
+          "team_id": 655,
+          "created_at": "2024-01-09T19:48:57.371+00:00",
+          "updated_at": "2024-01-09T19:48:57.371+00:00",
+          "id": 7352
+        },
+        {
+          "clan_name": "team_1eeR",
+          "team_id": 655,
+          "created_at": "2025-11-24T19:17:50.636+00:00",
+          "updated_at": "2025-11-24T19:17:50.636+00:00",
+          "id": 10493
+        },
+        {
+          "clan_name": "team_riskyb0b_",
+          "team_id": 655,
+          "created_at": "2025-11-24T19:16:45.187+00:00",
+          "updated_at": "2025-11-24T19:16:45.187+00:00",
+          "id": 10491
+        }
+      ]
+    }
+  },
+  "games": [
+    {
+      "id": 184754,
+      "match_id": 129029,
+      "begin_at": "2026-09-09T13:55:39.000+00:00",
+      "state": "done",
+      "map_name": "de_inferno",
+      "duration": 2670031273984,
+      "demo_header": {
+        "_id": "6aa1785e282d0c800793d613",
+        "map_name": "de_inferno",
+        "filestamp": "PBDEMS2",
+        "tick_rate": -1.0,
+        "frame_rate": 128.0,
+        "server_name": "unknown",
+        "real_game_id": 184754
+      },
+      "ov_index": 0,
+      "winner_clan_score": 13,
+      "loser_clan_score": 7,
+      "winner_clan_name": "Nemiga",
+      "loser_clan_name": "HOTU",
+      "ps_id": null,
+      "number": 3,
+      "demo_url": "demos/manually_uploaded/1788966975_hotu-vs-nemiga-m3-inferno.dem",
+      "demo_data": null,
+      "code": null,
+      "status": "finished",
+      "rounds_count": 20,
+      "created_at": "2026-09-06T09:02:59.017+00:00",
+      "updated_at": "2026-09-09T15:18:08.722+00:00",
+      "partially_state": null,
+      "game_version": 2
+    },
+    {
+      "id": 184755,
+      "match_id": 129029,
+      "begin_at": "2026-09-09T13:05:44.000+00:00",
+      "state": "done",
+      "map_name": "de_cache",
+      "duration": 2134953164800,
+      "demo_header": {
+        "_id": "6aa17837282d0c800793b85c",
+        "map_name": "de_cache",
+        "filestamp": "PBDEMS2",
+        "tick_rate": -1.0,
+        "frame_rate": 128.0,
+        "server_name": "unknown",
+        "real_game_id": 184755
+      },
+      "ov_index": 0,
+      "winner_clan_score": 13,
+      "loser_clan_score": 4,
+      "winner_clan_name": "Nemiga",
+      "loser_clan_name": "HOTU",
+      "ps_id": null,
+      "number": 2,
+      "demo_url": "demos/manually_uploaded/1788966946_hotu-vs-nemiga-m2-cache.dem",
+      "demo_data": null,
+      "code": null,
+      "status": "finished",
+      "rounds_count": 17,
+      "created_at": "2026-09-06T09:02:59.028+00:00",
+      "updated_at": "2026-09-09T15:17:10.419+00:00",
+      "partially_state": null,
+      "game_version": 2
+    },
+    {
+      "id": 184756,
+      "match_id": 129029,
+      "begin_at": "2026-09-09T12:24:52.000+00:00",
+      "state": "done",
+      "map_name": "de_ancient",
+      "duration": 1668171825152,
+      "demo_header": {
+        "_id": "6aa17812282d0c8007939897",
+        "map_name": "de_ancient",
+        "filestamp": "PBDEMS2",
+        "tick_rate": -1.0,
+        "frame_rate": 128.0,
+        "server_name": "unknown",
+        "real_game_id": 184756
+      },
+      "ov_index": 0,
+      "winner_clan_score": 13,
+      "loser_clan_score": 3,
+      "winner_clan_name": "HOTU",
+      "loser_clan_name": "Nemiga",
+      "ps_id": null,
+      "number": 1,
+      "demo_url": "demos/manually_uploaded/1788966918_hotu-vs-nemiga-m1-ancient.dem",
+      "demo_data": null,
+      "code": null,
+      "status": "finished",
+      "rounds_count": 16,
+      "created_at": "2026-09-06T09:02:59.039+00:00",
+      "updated_at": "2026-09-09T15:16:28.228+00:00",
+      "partially_state": null,
+      "game_version": 2
+    }
+  ]
+}

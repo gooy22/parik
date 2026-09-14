@@ -1,0 +1,50 @@
+[
+  {
+    "matchId": 8991067333,
+    "seriesId": 1140089,
+    "radiant": {
+      "valveId": 9338413,
+      "name": "MOUZ",
+      "score": 15
+    },
+    "dire": {
+      "valveId": 10232231,
+      "name": "Klim Sani4",
+      "score": 19
+    },
+    "startDate": "2026-09-09T23:22:33.000+00:00",
+    "radiantVictory": false
+  },
+  {
+    "matchId": 8991020791,
+    "seriesId": 1140089,
+    "radiant": {
+      "valveId": 9338413,
+      "name": "MOUZ",
+      "score": 45
+    },
+    "dire": {
+      "valveId": 10232231,
+      "name": "Klim Sani4",
+      "score": 14
+    },
+    "startDate": "2026-09-09T22:05:30.000+00:00",
+    "radiantVictory": true
+  },
+  {
+    "matchId": 8990977035,
+    "seriesId": 1140089,
+    "radiant": {
+      "valveId": 9338413,
+      "name": "MOUZ",
+      "score": 15
+    },
+    "dire": {
+      "valveId": 10232231,
+      "name": "Klim Sani4",
+      "score": 42
+    },
+    "startDate": "2026-09-09T20:49:55.000+00:00",
+    "radiantVictory": false
+  }
+]

@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#171716">
+  <title>Arena Line</title>
+  <script>try{const t=localStorage.getItem('arena-theme-v1');const dark=t==='dark'||t==='auto'&&matchMedia('(prefers-color-scheme: dark)').matches;document.documentElement.dataset.theme=dark?'dark':'light';document.documentElement.style.colorScheme=dark?'dark':'light'}catch{}</script>
+  <link rel="manifest" href="/manifest.webmanifest">
+  <link rel="preload" href="/assets/fonts/roboto-semibold.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/app.css?v=21">
+  <link rel="stylesheet" href="/sports.css?v=21">
+  <link rel="stylesheet" href="/bet-view.css?v=21">
+  <link rel="stylesheet" href="/event-view.css?v=21">
+  <link rel="stylesheet" href="/share-coupon.css?v=21">
+  <link rel="stylesheet" href="/settings.css?v=21">
+  <link rel="stylesheet" href="/theme.css?v=21">
+  <script defer src="/lucide.min.js"></script>
+  <script type="module" src="/app.js?v=21"></script>
+</head>
+<body>
+  <main class="sports-shell" aria-label="Спорт">
+    <header class="sports-header"><div class="sports-header-inner">
+      <button class="desktop-menu header-icon" data-action="sports-page" data-value="menu" aria-label="Меню"><i data-lucide="menu"></i></button>
+      <button class="brand" data-action="sports-home" aria-label="Головна"><img class="wordmark" src="/assets/wordmark.png" width="120" height="24" alt="Parik24"></button>
+      <nav class="desktop-links" aria-label="Основні розділи"><button data-action="sports-home"><i data-lucide="square-chart-gantt"></i>Спорт</button><button data-action="sports-bets"><i data-lucide="tickets"></i>Мої ставки</button><button data-action="sports-page" data-value="bonus"><i data-lucide="gift"></i>Бонуси</button></nav>
+      <button class="header-icon" data-action="sports-search" aria-label="Пошук матчу" title="Пошук матчу"><i data-lucide="search"></i></button>
+      <div id="header-auth" class="header-auth"></div>
+    </div></header>
+    <header id="event-header" class="event-header" hidden></header>
+    <div class="sports-scroll" id="sports-scroll">
+      <div class="line-container" id="line-container">
+        <nav class="stage-tabs" aria-label="Лінія">
+          <button data-action="sports-stage" data-value="lobby">ЛОББІ</button>
+          <button class="active" data-action="sports-stage" data-value="live">ЛАЙВ</button>
+          <button data-action="sports-stage" data-value="prematch">ПРЕМАТЧ</button>
+          <button class="coupon-icon" data-action="sports-slip" aria-label="Купон" title="Купон"><i data-lucide="ticket"></i><span id="coupon-count" hidden></span></button>
+        </nav>
+        <div id="line-search" class="line-search" hidden><input id="search-query" type="search" placeholder="Команда або турнір" aria-label="Пошук матчу" autocomplete="off"></div>
+        <nav id="sport-tabs" class="sport-tabs" aria-label="Види спорту"></nav>
+        <div id="prematch-filters" class="prematch-filters" hidden></div>
+        <nav id="tournament-tabs" class="tournament-tabs" aria-label="Турніри"></nav>
+        <div class="line-summary"><div><i data-lucide="play"></i><span id="match-count">...</span></div><label class="market-label" for="market-filter"><select id="market-filter" aria-label="Ринок"><option value="winner">Переможець</option><option value="total">Тотал</option><option value="handicap">Фора</option></select><i data-lucide="chevrons-up-down"></i></label></div>
+        <div id="line-notice" class="line-notice" role="status" hidden></div>
+        <div id="event-list" class="event-list" aria-live="off"><div class="line-loading"><span class="spinner"></span>Завантаження матчів</div></div>
+      </div>
+      <div id="sports-extra" class="sports-extra" hidden></div>
+    </div>
+    <button id="slip-mini" class="slip-mini" data-action="sports-slip" hidden><span id="slip-mini-label"></span><i data-lucide="chevron-up"></i></button>
+    <nav id="sports-nav" class="sports-nav" aria-label="Головна навігація"></nav>
+  </main>
+
+  <dialog id="betslip" class="betslip" aria-label="Купон"><div class="slip-handle"></div><div class="slip-head"><div class="slip-types"><button data-action="sports-type" data-value="single">Ординар</button><button data-action="sports-type" data-value="express">Експрес</button><button data-action="sports-type" data-value="system">Система</button></div><button class="icon-button" data-action="sports-collapse" aria-label="Згорнути купон" title="Згорнути купон"><i data-lucide="chevron-down"></i></button></div><div id="slip-lines" class="slip-lines"></div><form id="bet-form"><div id="system-settings" class="system-settings" hidden><label for="system-size">Система</label><select id="system-size" aria-label="Розмір системи"></select></div><div class="stake-presets"><button type="button" data-action="sports-stake" data-value="100">100</button><button type="button" data-action="sports-stake" data-value="200">200</button><button type="button" data-action="sports-stake" data-value="500">500</button><button type="button" data-action="sports-stake" data-value="all">На все</button></div><label class="stake-field" for="stake">Сума ставки<input id="stake" inputmode="decimal" autocomplete="off" value="30" aria-label="Сума ставки, €"><span>€</span></label><div class="slip-totals"><div><span>Баланс</span><strong id="slip-balance"></strong></div><div><span>Сума купону</span><strong id="slip-cost"></strong></div><div><span>Можливий виграш</span><strong id="slip-potential"></strong></div></div><p id="bet-error" class="error" role="alert"></p><button id="place-bet" class="place-bet" type="submit">Зробити ставку</button></form></dialog>
+
+  <section id="profile-layer" class="profile-layer" hidden aria-label="Профиль Arena Line">
+    <header id="profile-header" class="profile-header"></header>
+    <main id="profile-content" class="profile-content" tabindex="-1"></main>
+    <nav id="profile-nav" class="profile-nav" aria-label="Навигация профиля"></nav>
+  </section>
+
+  <dialog id="dialog" aria-labelledby="dialog-title"><div id="dialog-content"></div></dialog>
+  <div id="toast" class="toast" role="status" hidden></div>
+</body>
+</html>
